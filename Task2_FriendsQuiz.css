@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height : 100vh;
+    background-color: #26215C;
+}
+.main{
+    background-color: #26215C;
+    padding: 5rem;
+    border-radius: 2rem;
+    height: 50vh;
+    width: 100vh;
+    text-align: center;
+}
+.trivia{
+color: rgba(251, 226, 101, 0.908);
+font-family: monospace;
+font-size: 30px;
+font-weight: 550;
+}
+.quiz{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    padding-top: 15px;
+}
+.sub-txt{
+font-family: "Inter", sans-serif;
+font-weight: 550;
+font-size: 20px;
+color: #5DCAA5;
+padding-top: 10px;
+}
+.start{
+    background-color: #EF9F27;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 15px;
+    color: brown;
+    border-radius: 50px;
+    width: 170px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+.bdiv{
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+}
+.letters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    gap: 1px;
+}
+.R,.C,.P,.M,.G{
+    background-color: #5DCAA5;
+    font-weight: 550;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    height:45px;
+    width: 45px;
+     display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-align: center;
+    transform: rotate(-7deg);
+}
+.C{
+    background-color: #378ADD;
+    color: antiquewhite;
+    transform: rotate(2deg);
+}
+.P{
+    background-color: #ED93B1;
+    color: #4B1528;
+    transform: rotate(2deg);
+}
+.M{
+    background-color: #F0997B;
+    color:#4A1B0C;
+}
+.G{
+    background-color: #AFA9EC;
+    color: #26215C;
+}

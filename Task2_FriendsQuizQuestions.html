@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends Quiz - Unicode Task 2</title>
+     <link rel="stylesheet" href="Task2_FriendsQuiz.css">
+    <link rel="stylesheet" href="Task2_FriendsQuiz2.css">
+</head>
+<body>
+    <!-- Welcome screen -->
+    <div class="main" id="welcome-screen">
+        <div class="wel-txt">
+            <div class="letters">
+                <div class="R">R</div>
+                <div class="M">M</div>
+                <div class="C">C</div>
+                <div class="P">P</div>
+                <div class="G">G</div>
+            </div>
+            <p class="trivia">Trivia Time !</p>
+            <p class="quiz">Friends Quiz</p>
+            <p class="sub-txt">7 questions on the gang from Central Perk.
+           </p>
+            <div class="bdiv">
+                <button type="button" class="start">Start quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quiz screen -->
+    <div class="main2" id="quiz-screen">
+        <div class="popup">Please select an answer!</div> 
+        <div class="top">
+            <div class="trackq"></div>
+            <div class="score">Score : 0</div>
+        </div>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        <div class="question">
+            <p class="text"></p>
+            <img class="characterImage" src="chandler-bing.jpg">
+        </div>
+        <div class="options">
+            <button class="o1"></button>
+            <button class="o2"></button>
+            <button class="o3"></button>
+            <button class="o4"></button>
+        </div>
+        <div class="next">
+            <button class="nxt">Next Question</button>
+        </div>
+    </div>
+
+    <!-- Results screen -->
+    <div class="show" id="results-screen">
+        <div class="res-score">
+            <p class="num">6/7</p>
+        </div>
+        <p class="complete">Quiz Complete</p>
+        <div class="comments">
+            <p class="com">We were basically ON a break with that one.</p>
+        </div>
+        <div class="btn">
+            <button class="restart">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="Task2_FriendsQuiz.js"></script>
+</body>
+</html>
