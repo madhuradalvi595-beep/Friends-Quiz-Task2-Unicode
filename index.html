@@ -11,19 +11,52 @@
     <!-- Welcome screen -->
     <div class="main" id="welcome-screen">
         <div class="wel-txt">
-            <div class="letters">
-                <div class="R">R</div>
-                <div class="M">M</div>
-                <div class="C">C</div>
-                <div class="P">P</div>
-                <div class="G">G</div>
-            </div>
-            <p class="trivia">Trivia Time !</p>
+            <p class="trivia">CENTRAL PERK PRESENTS</p>
             <p class="quiz">Friends Quiz</p>
-            <p class="sub-txt">7 questions on the gang from Central Perk.
+            <p class="sub-txt">Pick your favourite friend, then answer 6 questions to prove you'd survive the group chat.
            </p>
+           <div class="character-grid">
+           <div class="friend-card" data-character="Rachel">
+                <img src="rachael.jpg" alt="Rachel">
+                <h2>Rachel</h2>
+                <p>The Fashionista</p>
+            </div>
+
+            <div class="friend-card" data-character="Monica">
+                <img src="monica.jpg" alt="Monica">
+                <h2>Monica</h2>
+                <p>The Perfectionist</p>
+            </div>
+
+            <div class="friend-card" data-character="Phoebe">
+                <img src="phoebe.jpg" alt="Phoebe">
+                <h2>Phoebe</h2>
+                <p>The Free Spirit</p>
+            </div>
+
+            <div class="friend-card" data-character="Joey">
+                <img src="joey.jpg" alt="Joey">
+                <h2>Joey</h2>
+                <p>The Foodie</p>
+            </div>
+
+            <div class="friend-card" data-character="Chandler">
+                <img src="chandler.jpg" alt="Chandler">
+                <h2>Chandler</h2>
+                <p>The Sarcastic One</p>
+            </div>
+
+            <div class="friend-card" data-character="Ross">
+                <img src="ross.jpg" alt="Ross">
+                <h2>Ross</h2>
+                <p>The Dinosaur Guy</p>
+            </div>
+        </div>
+
             <div class="bdiv">
-                <button type="button" class="start">Start quiz</button>
+                <button type="button" class="start" disabled>
+    Start Quiz
+</button>
             </div>
         </div>
     </div>
@@ -32,7 +65,7 @@
     <div class="main2" id="quiz-screen">
         <div class="popup">Please select an answer!</div> 
         <div class="top">
-            <div class="trackq"></div>
+            <div class="trackq">Question 1 of 10</div>
             <div class="score">Score : 0</div>
         </div>
         <div class="progress-bar">

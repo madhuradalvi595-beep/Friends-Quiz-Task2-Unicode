@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
-    background-color: #26215C;
+    background-color: #26183C;
 }
 body {
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: safe center;
   justify-content: center;
+  overflow-y: auto;
 }
-
 .main2, .show {
   display: none;
   flex-direction: column;
@@ -31,6 +32,13 @@ body {
     color: #ddd;
     font-weight: 600;
 }
+.trackq{
+    color: #EF9F27;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
 .progress-bar{
     width: 700px;
     height: 7px;
@@ -47,13 +55,14 @@ body {
      transition: width 0.4s ease;
 }
 .score{
-    background-color: #5DCAA5;
-    border-radius: 10px;
-    height: 25px;
-    color:rgba(2, 57, 2, 0.76);
-    font-weight: 550;
-    width: 70px;
-     display: flex;
+    background-color: #EF9F27;
+    border-radius: 50px;
+    height: 36px;
+    color: #4A1B0C;
+    font-weight: 700;
+    padding: 0 18px;
+    width: auto;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -91,33 +100,22 @@ body {
     cursor:pointer;
     box-shadow:0 6px 12px rgba(0,0,0,.15);
 }
-.o1{
-    background:#5DCAA5;   /* Mint */
-    color:#124535;
-}
-.o2{
-    background:#F0997B;   
-    color:#5B220F;
-}
-.o3{
-    background:#AFA9EC;   
-    color:#26215C;
-}
-.o4{
-    background:#EF9F27;   
-    color:#5C2E00;
+.o1, .o2, .o3, .o4{
+    background: #3D2B5C;
+    color: #F0EAFF;
+    border: 2px solid #5C4577;
 }
 .correct{
-    background-color: #53dd65;
-    color: #124535 ;
-    border: 3px solid #2F8F72;
+    background-color: #24444A;
+    color: #E8FFFB;
+    border: 3px solid #3F9E99;
     transform: scale(1.03);
     transition: 0.2s ease;
 }
 .wrong{
-    background-color: #ba2c2c ;
-    color: #5A2312 ;
-    border: 3px solid #D05B3A;
+    background-color: #5A2142;
+    color: #FFE8F2;
+    border: 3px solid #D45B84;
     transform: scale(1.03);
     transition: 0.2s ease;
 }
@@ -135,10 +133,10 @@ body {
     cursor: not-allowed;
 }
 .nxt{
-    background-color: #5DCAA5;
+    background-color: #EF9F27;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     font-size: 15px;
-    color: rgb(30, 52, 10);
+    color: #4A1B0C;
     border-radius: 50px;
     width: 170px;
     height: 50px;
